@@ -2,10 +2,10 @@ name: testing the application
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "Ashish_branch" ]
 
   pull_request:
-    branches: [ "main" ]
+    branches: [ "Ashish_branch" ]
 
 jobs:
     job1:
