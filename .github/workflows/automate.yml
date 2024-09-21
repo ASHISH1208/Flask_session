@@ -2,10 +2,10 @@ name: testing the application
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "local_change_with_flask_app" ]
 
   pull_request:
-    branches: [ "main" ]
+    branches: [ "local_change_with_flask_app" ]
 
 jobs:
     job1:
